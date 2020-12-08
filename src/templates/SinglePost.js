@@ -4,11 +4,14 @@ import { Link, graphql } from 'gatsby'
 import { ChevronLeft } from 'react-feather'
 
 import Content from '../components/Content'
+import PageHeader from '../components/PageHeader'
 import Layout from '../components/Layout'
 import './SinglePost.css'
 
 export const SinglePostTemplate = ({
+  featuredImage,
   title,
+  subtitle,
   date,
   body,
   nextPostURL,
@@ -16,6 +19,11 @@ export const SinglePostTemplate = ({
   categories = []
 }) => (
   <main>
+      <PageHeader
+      title={title}
+      subtitle={subtitle}
+      backgroundImage={featuredImage}
+    />
     <article
       className="SinglePost section light"
       itemScope
@@ -119,9 +127,10 @@ export const pageQuery = graphql`
       html
       id
       frontmatter {
+        featuredImage
+        subtitle
         title
         template
-        subtitle
         date(formatString: "MMMM Do, YYYY")
         categories {
           category
