@@ -94,7 +94,7 @@ export class Navigation extends Component {
               >
                 About Our Travels
                 <div className="Nav--GroupLinks">
-                  <NavLink to="/our-travels/" className="Nav--GroupLink">
+                  <NavLink to="/blog/" className="Nav--GroupLink">
                     All Posts
                   </NavLink>
                   {subNav.posts.map((link, index) => (
