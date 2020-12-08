@@ -60,7 +60,7 @@ export default ({ children, meta, title }) => {
               <link href="https://ucarecdn.com" rel="preconnect" crossorigin />
               <link rel="dns-prefetch" href="https://ucarecdn.com" />
               {/* Add font link tags here */}
-              <script src="https://use.fontawesome.com/2c9ce5384a.js"></script>
+              <script src="https://kit.fontawesome.com/6e1c089021.js" crossorigin="anonymous"></script>
             </Helmet>
 
             <Meta
