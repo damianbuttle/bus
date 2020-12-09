@@ -7,9 +7,9 @@ export default () => (
       Follow us{' '}
       </h2>
       <div className="">
-      <a href="https://instagram.com/buttlesonthebus/"><i class="fab fa-instagram"></i></a>
-      <a href="https://facebook.com/buttlesonthebus/"><i class="fab fa-facebook"></i></a>
-      <a href="https://open.spotify.com/show/2wNH6OtcXWCra8NRdSLWTk?si=d2S1ey2ORfCIEnfwFFPFMQ"><i class="fab fa-spotify"></i></a>
+      <a href="https://instagram.com/buttlesonthebus/"><i class="fab fa-instagram fa-4x"></i></a>
+      <a href="https://facebook.com/buttlesonthebus/"><i class="fab fa-facebook fa-4x"></i></a>
+      <a href="https://open.spotify.com/show/2wNH6OtcXWCra8NRdSLWTk?si=d2S1ey2ORfCIEnfwFFPFMQ"><i class="fab fa-spotify fa-4x"></i></a>
 
       </div>
     <br />
