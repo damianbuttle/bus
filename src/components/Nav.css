@@ -53,6 +53,7 @@
 .NavLink:focus {
   color: var(--primary);
   border-bottom-color: currentColor;
+  outline: none;
 }
 
 .Nav--Group {
