@@ -137,6 +137,9 @@ blockquote {
 .taCenter {
   text-align: center;
 }
+.taCenter i {
+  margin: 0px 20px
+}
 .taLeft {
   text-align: left;
 }
