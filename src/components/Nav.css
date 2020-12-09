@@ -20,6 +20,10 @@
   flex-direction: row;
 }
 
+.Nav--Links:focus {
+  outline: none;
+}
+
 .Nav--Links > * + * {
   margin-left: 1rem;
 }
