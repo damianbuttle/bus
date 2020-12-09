@@ -5,8 +5,13 @@ export default () => (
   <div>
     <h2 className="taCenter">
       Follow us{' '}
-      <a href="https://instagram.com/buttlesonthebus/"><i class="fab fa-instagram"></i>@buttlesonthebus</a>
-    </h2>
+      </h2>
+      <div className="">
+      <a href="https://instagram.com/buttlesonthebus/"><i class="fab fa-instagram"></i></a>
+      <a href="https://facebook.com/buttlesonthebus/"><i class="fab fa-facebook"></i></a>
+      <a href="https://open.spotify.com/show/2wNH6OtcXWCra8NRdSLWTk?si=d2S1ey2ORfCIEnfwFFPFMQ"><i class="fab fa-spotify"></i></a>
+
+      </div>
     <br />
     <footer className="footer">
       <div className="container taCenter">
